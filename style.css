@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.header {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 4em;
+    display: flex;
+    justify-content: space-around;
+    flex-item;
+    
+    
+}
+
+.links {
+    margin-top: 10%;
+    width: 80%;
+}
+
+.links a {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+@media (max-width: 820px) {
+    .links {
+        width: 40%;
+    }
+}
+
+@media (max-width: 420px) {
+    .links {
+        width: 20%;
+    }
+}
